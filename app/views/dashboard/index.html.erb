@@ -1,5 +1,24 @@
 <div class="d-flex align-items-center justify-content-center">
-    <h1>Welcome to Auth Demo!</h1>
+  <h1>Welcome to Auth Demo!</h1>
 </div>
-<p>Please Sign Up first!</p>
-#TODO[LINK TO SIGN UP GOES HERE!]
+
+<% if user_signed_in? %>
+  <p>Welcome, <strong><%= current_user.email %></strong>!</p>
+<% else %>
+  <p>Welcome, Guest!</p>
+  <p>To get started, please <%= link_to "sign in", new_user_session_path %> or <%= link_to "sign up", new_user_registration_path %>.</p>
+
+  <p>To sign in, please use the following credentials:</p>
+  <ul>
+    <li>
+      <strong>Admin:</strong><br>
+      Email: <code>admin@example.com</code><br>
+      Password: <code>password</code>
+    </li>
+    <li>
+      <strong>Regular User:</strong><br>
+      Email: <code>user@example.com</code><br>
+      Password: <code>password</code>
+    </li>
+  </ul>
+<% end %>
