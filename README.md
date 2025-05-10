@@ -22,16 +22,15 @@ Let’s get started!
 - [0 - Episode](https://medium.com/jungletronics/infra-upload-initial-rails-8-app-with-devise-pundit-f328a4632f5e) - Initial Rails 8 app with Devise & Pundit
 - [1 - Episode](https://medium.com/jungletronics/mastering-pundit-episode-1-bc841bf0c698) -Mastering Pundit - A Beginner’s Guide to Understanding Pundit and Its Authorization Flow
 - [2 - Episode](https://medium.com/jungletronics/work-with-devise-pundit-38799fd506d9) - Secure & Scale Your Rails App with Devise and Pundit — #DevisePunditSeries
-
-
 - soon ...
 
-
 ## Screenshots
-Episode 0
-![Episode 0](./public/screens/device_pundit_v0.png)
-Episode 3
-![Episode 0](./public/screens/device_pundit_v3.png)
+
+| Episode   | Screenshot |
+|-----------|------------|
+| Episode 0 | <img src="./public/screens/device_pundit_v0.png" alt="Episode 0" width="500"/> |
+| Episode 3 | <img src="./public/screens/device_pundit_v3.png" alt="Episode 3" width="500"/> |
+
 ## Authors
 
 - [@jaythree](https://www.linkedin.com/in/giljrx/)
